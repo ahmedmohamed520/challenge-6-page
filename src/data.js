@@ -1,0 +1,95 @@
+import commentedImg from "./assets/images/image-chess.webp";
+import person1 from "./assets/images/avatar-mark-webber.webp";
+import person2 from "./assets/images/avatar-angela-gray.webp";
+import person3 from "./assets/images/avatar-jacob-thompson.webp";
+import person4 from "./assets/images/avatar-rizky-hasanuddin.webp";
+import person5 from "./assets/images/avatar-kimberly-smith.webp";
+import person6 from "./assets/images/avatar-nathan-peterson.webp";
+import person7 from "./assets/images/avatar-anna-kim.webp";
+export const notifications = [
+    {
+        id: 1,
+        name: "Mark Webber",
+        action: "reacted to your recent post",
+        post: "My first tournatment today!",
+        recent: true,
+        since: "1min ago",
+        location: "",
+        message: "",
+        commentedPicture: "",
+        authorImg: person1,
+    },
+    {
+        id: 2,
+        name: "Angela Gray",
+        action: "followed you",
+        post: "",
+        recent: true,
+        since: "5m ago",
+        location: "",
+        message: "",
+        commentedPicture: "",
+        authorImg: person2,
+    },
+    {
+        id: 3,
+        name: "Jacob Thompson",
+        action: "has joined your group",
+        post: "",
+        recent: true,
+        since: "1 day ago",
+        location: "Chess club",
+        message: "",
+        commentedPicture: "",
+        authorImg: person3,
+    },
+    {
+        id: 4,
+        name: "Rizky Hasanuddin",
+        action: "sent you a private message",
+        post: "",
+        recent: false,
+        since: "5 days ago",
+        location: "",
+        message:
+            "Hello, thanks for setting up the Chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        commentedPicture: "",
+        authorImg: person4,
+    },
+    {
+        id: 5,
+        name: "Kimberly",
+        action: "commented on your picture",
+        post: "",
+        recent: false,
+        since: "1 week ago",
+        location: "",
+        message: "",
+        commentedPicture: commentedImg,
+        authorImg: person5,
+    },
+    {
+        id: 6,
+        name: "Nathan Peterson",
+        action: "reacted to your recent post",
+        post: "5 end-game strategies to increase your win rate",
+        recent: false,
+        since: "2 weeks ago",
+        location: "",
+        message: "",
+        commentedPicture: "",
+        authorImg: person6,
+    },
+    {
+        id: 7,
+        name: "Anna Kim",
+        action: "left the group",
+        post: "",
+        recent: false,
+        since: "2 weeks ago",
+        location: "Chess club",
+        message: "",
+        commentedPicture: "",
+        authorImg: person7,
+    },
+];
