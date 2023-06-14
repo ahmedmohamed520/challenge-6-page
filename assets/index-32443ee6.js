@@ -58,6 +58,11 @@ Error generating stack: `+o.message+`
     .notification-link {
         color: #000;
         font-weight: 800;
+        transition: 0.2s all;
+    }
+    .notification-link:hover,
+    .notification-link:active {
+        color: var(--clr-blue);
     }
     .action {
         color: var(--clr-gray-5);
@@ -69,6 +74,11 @@ Error generating stack: `+o.message+`
     .post {
         font-weight: 800;
         color: var(--clr-gray-5);
+    }
+
+    .post:hover,
+    .post:active {
+        color: var(--clr-blue);
     }
     .recent {
         display: inline-block;
@@ -89,6 +99,10 @@ Error generating stack: `+o.message+`
         color: var(--clr-gray-5);
         margin-top: 1rem;
         border-radius: 5px;
+        transition: 0.2s all;
+    }
+    .message:hover {
+        background-color: var(--clr-gray-2);
     }
     .location {
         color: var(--clr-blue);
@@ -129,6 +143,11 @@ Error generating stack: `+o.message+`
     .link {
         color: var(--clr-gray-5);
         font-size: 0.9rem;
+        transition: 0.2s all;
+    }
+    .link:hover,
+    .link:active {
+        color: var(--clr-blue);
     }
 
     @media only screen and (max-width: 600px) {
